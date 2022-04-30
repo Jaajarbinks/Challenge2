@@ -1,0 +1,159 @@
+:root {
+    --font: 45px;
+    --font1: 19px;
+    --font2: 100px;
+    --color: rgb(79, 16, 16);
+    --cool: rgba(33, 221, 4, 0.898);
+    --cool1: rgba(255, 183, 0, 0.639);
+    --cool2: rgba(13, 86, 108, 0.752);
+    --cool3: white;
+    --cool4: purple;
+    --cool5: black;
+    --lol: 0px;
+    --height: 500px;
+    --width: 1887px;
+    --margin: -25% 60%;
+}
+
+h1 {
+  font-family: fantasy;
+  color: var(--color);
+  font-size: var(--font);
+  margin: var(--lol);
+  background-color: var(--cool);
+  text-align: left;
+}
+
+nav {
+    display: inline;
+}
+
+ul {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ul li {
+    list-style: none;
+    margin-right: 10px;
+    margin-top: -72px;
+    padding: 6px;
+}
+
+
+h1 nav ul li a {
+    float: right;
+    font-size: var(--font1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--color);
+
+}
+
+img {
+    height: 250px;
+    width: 285px;
+}
+
+
+.Portfolio {
+    height: 1000px;
+    width: 1887px;
+    background-image: url("https://www.thebalance.com/thmb/J8nXeAzcNgyeEtrtl7gNc_2lJgk=/735x0/PortfolioAnalysisforBeginners-5a011cc7ec2f64003784666f.jpg");
+}
+
+#AboutMe {
+    font-size: var(--font2);
+    background-color: var(--cool2);
+    color: var(--color);
+    height: var(--height);
+    width: var(--width);
+    display: flex;
+    align-items: center;  
+}
+
+#Projects {
+    background-color: var(--cool4);
+    color: var(--cool2);
+    font-size: var(--font2);
+    height: var(--height);
+    width: var(--width);
+    display: flex;
+    align-items: center;
+}
+
+h6 {
+    position: absolute;
+    margin-left: 38%;
+    margin-top: -15%;
+    font-size: var(--font);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    position: absolute;
+    font-size: 40px;
+    margin: var(--margin);
+}
+
+.button-group {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 8px solid rgba(179, 153, 20, 0.666);
+    border-radius: 3px;
+    overflow: hidden;
+    position: absolute;
+    margin: -16% 45%;
+    border-radius: 20px;
+    
+
+}
+
+.button1 {
+    background-image: url("https://bigpxl.com/wp-content/uploads/2021/01/coworkers-collaborating-with-laptops-on-wood-block-table-e1610940281589.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 58px;
+    height: 160px;
+    width: 525px;
+    color: var(--cool5);
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    cursor: grab;
+    border: 5px solid var(--color);
+}
+
+
+.button {
+    color: rgba(7, 85, 7, 0.636);
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    cursor: grab;
+    border: 5px solid var(--color);
+}
+
+.button:hover {
+    background: var(--cool1);
+    text-shadow: 0 0 4px green;
+}
+
+.Portfolio1 {
+    background: var(--color);
+    height: 400px;
+    width: 1887px;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+}
+ 
+
+/* (class is specified with a . ,can have multiple
+inside an element.) , and an (id is specified with a #,and
+can only have one id in the element.) */
