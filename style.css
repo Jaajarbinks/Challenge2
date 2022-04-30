@@ -152,8 +152,18 @@ p {
     display: flex;
     align-items: center;
 }
- 
 
-/* (class is specified with a . ,can have multiple
-inside an element.) , and an (id is specified with a #,and
-can only have one id in the element.) */
+/* ------non-retina screens------ */
+@media (max-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1){
+    
+}
+
+/* ------retina screen------ */
+@media (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pikel-ratio: 2)
+and (min-resolution: 192dpi) {
+    
+}
